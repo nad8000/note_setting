@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "patricklee.vsnotes",
+    "taichi.vscode-textlint",
+    "mushan.vscode-paste-image",
+    "DavidAnson.vscode-markdownlint",
+    "bierner.markdown-mermaid",
+  ],
+  "unwantedRecommendations": []
+}

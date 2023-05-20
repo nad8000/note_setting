@@ -1,0 +1,30 @@
+{
+  "vsnotes.defaultNoteTitle":"{dt}_{title}.{ext}",
+  "vsnotes.tokens": [
+    {
+      // 日付(dt)を設定
+      "type": "datetime",
+      "token": "{dt}",
+      "format": "YYYY-MM-DD",
+      "description": "Insert formatted datetime."
+    },
+    {
+      // ファイル名(title)を設定
+      "type": "title",
+      "token": "{title}",
+      "description": "Insert note title from input box.",
+      "format": "Untitled"
+    },
+    {
+      // 拡張子(ext)を設定
+      "type": "extension",
+      "token": "{ext}",
+      "description": "Insert file extension.",
+      "format": "md"
+    }
+  ],
+	"vsnotes.defaultSnippet": {
+		"langId": "markdown",
+		"name": "note"
+	}
+}

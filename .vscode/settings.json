@@ -1,0 +1,29 @@
+{
+  "markdown.preview.breaks": true,
+  "editor.fontSize": 14,
+  "editor.tabSize": 6,
+  "editor.insertSpaces": true,
+  "editor.lineHeight": 23,
+  "[plaintext]": {
+    "editor.tabSize": 6,
+    "editor.insertSpaces": true,
+    "editor.lineHeight": 23,
+  },
+  "[markdown]": {
+    "editor.tabSize": 6,
+    "editor.insertSpaces": true,
+    "editor.lineHeight": 23,
+  },
+  // テーマ
+  "workbench.colorTheme": "Solarized Light",
+  // エクスプローラーに表示しないディレクトリ
+  "files.exclude": {
+    "*.lnk": true,
+    "*.exe": true,
+    "*.xlsx": true,
+  },
+  "editor.guides.indentation": false,
+  "pasteImage.basePath": "${currentFileDir}/..",
+  "pasteImage.insertPattern": "${imageSyntaxPrefix}/${imageFilePath}${imageSyntaxSuffix}",
+  "pasteImage.path": "${currentFileDir}/../images"
+}
